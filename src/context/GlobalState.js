@@ -1,14 +1,14 @@
 import React, { createContext, useReducer } from 'react';
 import AppReducer from './AppReducer';
-;
+
 import TransactionList from '../components/TransactionList';
 
 const initialState = {
-    TransactionList: [
-    { id: 1, text: 'Flower', amount: -20 },
-    { id: 2, text: 'Salary', amount: 300 },
-    { id: 3, text: 'Book', amount: -10 },
-    { id: 4, text: 'Camera', amount: 120 }
+    transactions: [
+        { id: 1, text: 'Flower', amount: -20 },
+        { id: 2, text: 'Salary', amount: 300 },
+        { id: 3, text: 'Book', amount: -10 },
+        { id: 4, text: 'Camera', amount: 120 }
     ]
 }
 
